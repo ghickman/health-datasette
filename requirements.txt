@@ -48,6 +48,11 @@ click-default-group==1.2.2 \
 datasette==0.60.1 \
     --hash=sha256:43325230b27c57670a9863982c172be83ce8f9b205f5de61c51904bb3bb976c7 \
     --hash=sha256:4fd83e1351bed5279712d00b91cdee6376231c5421e07ac65ec5589d2cbaaa98
+    # via
+    #   -r requirements.in
+    #   datasette-vega
+datasette-vega==0.6.2 \
+    --hash=sha256:6aca6a40f0b244d6d05548bfff94a99f0ef96bd5b89ade241f0d389f7a01a063
     # via -r requirements.in
 h11==0.12.0 \
     --hash=sha256:36a3cb8c0a032f56e2da7084577878a035d3b61d104230d4bd49c0c6b555a9c6 \
